@@ -19,11 +19,50 @@ html {
 		0.05rem 0.05rem 0 #000;
 }
 
-.main-container {
-  
+@media only screen and (min-width: 770px) {
+  .main-container {
+    margin: 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .main-container {
+    padding: 1rem;
+  }
 }
 
 /* Portfolio Section */
 .portfolio-section {
   align-items: center;
+}
+
+/* Why Section */
+
+.why-section {
+  background-color: #003459;
+  color: #ffffff;
+  opacity: .9;
+  align-items: center;
+}
+
+.why-section p{
+  margin: 0;
+}
+
+@media only screen and (min-width: 760px) {
+  .why-section {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .why-section {
+    padding: 1rem;
+  }
+}
+
+/* Footer Section */
+.footer {
+  padding: 0 0.5rem;
 }
