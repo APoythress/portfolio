@@ -2,6 +2,10 @@ html {
   font-size: 16px;
 }
 
+.margin-bottom-none {
+  margin-bottom: 0;
+}
+
 /* Navigation section */
 
 #navbarNav {
@@ -77,6 +81,19 @@ html {
   color: #fff;
 }
 
+@media only screen and (min-width: 760px) {
+  .overlay,
+  .bg-img {
+    padding: 18rem 0 !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .overlay,
+  .bg-img {
+    padding: 5rem 0 !important;
+  }
+}
 
 /* Portfolio Section */
 .portfolio-section {
@@ -109,7 +126,28 @@ html {
   }
 }
 
+
+/* Contact Me Section */
+.contact-me {
+  margin-left: 1rem;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 2rem;
+  opacity: 0.8;
+}
+
+.quote span {
+  font-size: 0.75rem;
+}
+
 /* Footer Section */
 .footer {
   padding: 0 0.5rem;
+}
+
+.nav-footer {
+  margin-top: 2rem;
 }
